@@ -1,0 +1,16 @@
+<?php
+
+include'../../template/common/header.default_action.php';
+$tablename = 'sr_vendor';
+$return_page = 'vendor_grid.php';
+$registered_at = $FN->return_date_time();
+
+if ($_REQUEST["form_action"] == "Insert") {
+    $Query = "insert into $tablename values(NULL,'" . $_REQUEST["vendor_name"] . "','" . $_REQUEST["address_line1"] . "','" . $_REQUEST["address_line2"] . "','" . $_REQUEST["city"] . "','" . $_REQUEST["pincode"] . "','" . $_REQUEST["telephone_no"] . "','" . $_REQUEST["mobile_no"] . "','" . $_REQUEST["fax_no"] . "','" . $_REQUEST["email_id"] . "','" . $_REQUEST["tin_no"] . "','" . $_REQUEST["cst_no"] . "','" . $_REQUEST["vendor_category"] . "','" . $_REQUEST["service_product1"] . "','" . $_REQUEST["service_product2"] . "','" . $_REQUEST["service_product3"] . "','" . $_REQUEST["service_product4"] . "','" . $_REQUEST["contact_person_name1"] . "','" . $_REQUEST["telephone_no1"] . "','" . $_REQUEST["mobile_no1"] . "','" . $_REQUEST["email_id1"] . "','" . $_REQUEST["contact_person_name2"] . "','" . $_REQUEST["telephone_no2"] . "','" . $_REQUEST["mobile_no2"] . "','" . $_REQUEST["email_id2"] . "','" . $_REQUEST["contact_person_name3"] . "','" . $_REQUEST["telephone_no3"] . "','" . $_REQUEST["mobile_no3"] . "','" . $_REQUEST["email_id3"] . "','" . $_REQUEST["bank_name"] . "','" . $_REQUEST["bank_branch"] . "','" . $_REQUEST["ac_no"] . "','" . $_REQUEST["ac_name"] . "','" . $_REQUEST["ac_type"] . "','" . $_REQUEST["ifsc_code"] . "')";
+    $DB->query($Query);
+} else if ($_REQUEST["form_action"] == "Update") {
+    $Query = "update $tablename set vendor_name='" . $_REQUEST["vendor_name"] . "',address_line1='" . $_REQUEST["address_line1"] . "',address_line2='" . $_REQUEST["address_line2"] . "',city='" . $_REQUEST["city"] . "',pincode='" . $_REQUEST["pincode"] . "',telephone_no='" . $_REQUEST["telephone_no"] . "',mobile_no='" . $_REQUEST["mobile_no"] . "',fax_no='" . $_REQUEST["fax_no"] . "',email_id='" . $_REQUEST["email_id"] . "',cst_no='" . $_REQUEST["cst_no"] . "',tin_no='" . $_REQUEST["tin_no"] . "',vendor_category='" . $_REQUEST["vendor_category"] . "',service_product1='" . $_REQUEST["service_product1"] . "',service_product2='" . $_REQUEST["service_product2"] . "',service_product3='" . $_REQUEST["service_product3"] . "',service_product4='" . $_REQUEST["service_product4"] . "',contact_person_name1='" . $_REQUEST["contact_person_name1"] . "',telephone_no1='" . $_REQUEST["telephone_no1"] . "',mobile_no1='" . $_REQUEST["mobile_no1"] . "',email_id1='" . $_REQUEST["email_id1"] . "',contact_person_name2='" . $_REQUEST["contact_person_name2"] . "',telephone_no2='" . $_REQUEST["telephone_no2"] . "',mobile_no2='" . $_REQUEST["mobile_no2"] . "',email_id2='" . $_REQUEST["email_id2"] . "',contact_person_name3='" . $_REQUEST["contact_person_name3"] . "',telephone_no3='" . $_REQUEST["telephone_no3"] . "',mobile_no3='" . $_REQUEST["mobile_no3"] . "',email_id3='" . $_REQUEST["email_id3"] . "',bank_name='" . $_REQUEST["bank_name"] . "',bank_branch='" . $_REQUEST["bank_branch"] . "',ac_no='" . $_REQUEST["ac_no"] . "',ac_name='" . $_REQUEST["ac_name"] . "',ac_type='" . $_REQUEST["ac_type"] . "',ifsc_code='" . $_REQUEST["ifsc_code"] . "' where id=" . $_REQUEST["id"];
+    $DB->query($Query);
+}
+$FN->page_redirect($return_page);
+?>

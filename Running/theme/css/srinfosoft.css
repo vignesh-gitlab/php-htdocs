@@ -1,0 +1,288 @@
+.form_tablebox {
+    width: 100%;
+    /*border: 1px solid #C5C5C5;*/
+    margin: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family:"Arial",Helvetica,Arial,sans-serif;
+    font-size:12px!important;
+}
+
+.footer_height
+{
+    height:40px;
+}
+.ajax_class
+{
+    font-weight:bold;
+    color:#000000;
+    padding-top:7px;
+    font-size:16px;
+}
+.bluelink {
+    color:#076296;
+}
+.align_center{
+    text-align:center;
+}
+.align_right{
+    text-align:right;
+}
+.align_left{
+    text-align:left;
+}
+.img_hide{
+    display:none;float:left; margin-right:10px;
+    height:35px;
+}
+
+.form_tablebox table
+{
+    font-family:"Arial",Helvetica,Arial,sans-serif;
+    font-size:12px!important;
+}
+
+.dropdown_padding
+{
+    padding:0px 10px 0px 10px !important;
+}
+
+.radio_class
+{
+    padding:0px 10px 0px 0px;
+}
+
+.mandatory {
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.form_tablebox table
+{
+    width:100% !important;
+}
+
+table .form_table{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+.form_label_split3 {
+    background: #eeeeee;
+    width:13%;
+    color: #575757;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 25px;
+    border: 1px solid #cccccc;
+}
+
+.form_label_small_split3 {
+    background: #EEEEEE;
+    width:13%;
+    color: #575757;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 15px;
+    border: 1px solid #cccccc;
+    font-size:11px;
+}
+
+.form_label_multiple {
+    background: #EEEEEE;
+    color: #575757;
+    text-align: center;
+    padding-right: 5px;
+    line-height: 25px;
+    border: 1px solid #cccccc;
+}
+
+.form_label_multiple_right {
+    background: #EEEEEE;
+    color: #575757;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 25px;
+    border: 1px solid #cccccc;
+}
+
+.form_content_split3 {
+    width:20%;
+    border: 1px solid #cccccc;
+    line-height: 25px;
+}
+
+.form_content_multiple {
+    border: 1px solid #cccccc;
+    line-height: 25px;
+}
+
+.form_content_small_split3 {
+    width:20%;
+    border: 1px solid #cccccc;
+    line-height: 15px;
+    font-size:11px;
+}
+
+.form_label_split2 {
+    background: #EEEEEE;
+    width:18%;
+    color: #575757;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 25px;
+    border: 1px solid #cccccc;
+}
+
+.form_content_split2 {
+    width:32%;
+    border: 1px solid #cccccc;
+    line-height: 25px;
+}
+
+#success
+{
+    display:none;
+    color:#00FF00;
+    float:right;
+    padding:10px 0px 0px 0px;
+}
+
+
+#error
+{
+    display:none;
+    color:#FF0000;
+    float:right;
+    padding:10px 0px 0px 0px;
+}
+
+
+.table_header
+{
+    font-size:20px;
+}
+
+.table_content_bold
+{
+    font-weight:bold;
+}
+
+#progressbar_information
+{
+    line-height:60px;
+    font-size:20px;
+    width:90%;
+    margin:auto;
+}
+
+.financial-year
+{
+    line-height:50px;
+    font-size:13px;
+    color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.btn_space
+{
+    margin-left:5px;
+}
+
+.dashboard_icon_line1
+{
+    width:20%;
+    float:left;
+    margin-top:50px;
+}
+
+.dashboard_icon_line2
+{
+    width:20%;
+    float:left;
+    margin-top:75px;
+}
+
+.textarea_style{
+    text-align:center;
+    font-size:40px;
+    width:100%;
+    padding:25px 0px 0px 0px;
+    color:#000000;
+    font-family:arial;
+    font-weight:bold;
+    background:#000000;
+    color:#FF0000;
+}
+
+.client_name_head{
+    width:400px;
+    margin:auto;
+    text-align:center;
+    font-weight:bold;
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.padding-left10{
+    padding-left:10px;
+}
+
+.zero_margin{
+    margin:0px;
+}
+
+.float_right{
+    float:right;
+}
+
+.float_left{
+    float:left;
+}
+
+.dashboard_font
+{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.preloader_block{
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.preloader{
+    margin-top:200px;
+}
+
+.loader_block
+{
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.loader_img{
+    margin-top:200px;
+    height:100px;
+}
+
+.button_box
+{
+    width:auto;
+    float:left;
+}
+#submit_loader
+{
+    float:left;
+    display:none;
+}
