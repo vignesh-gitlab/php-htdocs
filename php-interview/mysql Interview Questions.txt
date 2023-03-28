@@ -1,0 +1,56 @@
+Q: What is MySQL?
+A: MySQL is an open-source relational database management system (RDBMS) that is widely used for storing and managing data.
+
+Q: What are the advantages of using MySQL?
+A: Some advantages of using MySQL are:
+
+Open-source and free to use
+Scalable and can handle large amounts of data
+Fast and reliable
+Cross-platform compatibility
+Supports multiple storage engines
+Active community support
+Q: What is a database?
+A: A database is a collection of related data that is organized in a structured way. It can be used to store, manage, and retrieve data.
+
+Q: What is a table in MySQL?
+A: A table in MySQL is a collection of related data that is organized into rows and columns. Each column represents a specific data type, and each row represents a single record.
+
+Q: What is a primary key in MySQL?
+A: A primary key in MySQL is a unique identifier for a row in a table. It is used to ensure that each row is unique and can be used to join tables together.
+
+Q: What is a foreign key in MySQL?
+A: A foreign key in MySQL is a field in one table that refers to the primary key in another table. It is used to establish relationships between tables.
+
+Q: What is a query in MySQL?
+A: A query in MySQL is a statement that is used to retrieve data from one or more tables. It can be used to filter, sort, and manipulate data.
+
+Q: What is a JOIN in MySQL?
+A: A JOIN in MySQL is used to combine data from two or more tables based on a related column or key. It is used to retrieve data that is spread across multiple tables.
+
+Q: What is normalization in MySQL?
+A: Normalization in MySQL is the process of organizing data in a database in a way that reduces redundancy and ensures data integrity.
+
+Q: What is an index in MySQL?
+A: An index in MySQL is a data structure that is used to improve the performance of database queries. It allows data to be retrieved more quickly by creating a reference to the data in a table.
+
+Q: What is a transaction in MySQL?
+A: A transaction in MySQL is a set of one or more database operations that are executed together as a single unit. Transactions are used to ensure that data is consistent and accurate.
+
+Q: What is a stored procedure in MySQL?
+A: A stored procedure in MySQL is a set of SQL statements that are stored in the database and can be executed as a single unit. It is used to simplify complex database operations and improve performance.
+
+Q: What is the difference between CHAR and VARCHAR data types in MySQL?
+A: The CHAR data type in MySQL is used to store fixed-length character strings, while the VARCHAR data type is used to store variable-length character strings.
+
+Q: What is the difference between INNER JOIN and OUTER JOIN in MySQL?
+A: An INNER JOIN in MySQL returns only the rows that have matching values in both tables, while an OUTER JOIN returns all the rows from one table and the matching rows from the other table.
+
+Q: What is the difference between DELETE and TRUNCATE in MySQL?
+A: The DELETE statement in MySQL is used to delete one or more rows from a table, while the TRUNCATE statement is used to remove all rows from a table.
+
+Q: What is the difference between GROUP BY and HAVING clauses in MySQL?
+A: The GROUP BY clause in MySQL is used to group rows together based on a specific column or columns, while the HAVING clause is used to filter the results based on a specific condition. The HAVING clause is used in conjunction with the GROUP BY clause.
+
+
+

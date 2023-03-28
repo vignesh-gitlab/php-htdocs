@@ -1,0 +1,39 @@
+Q: What is HTML?
+A: HTML stands for HyperText Markup Language. It is a standard markup language used to create web pages and web applications.
+
+Q: What is CSS?
+A: CSS stands for Cascading Style Sheets. It is a style sheet language used to describe the presentation of a document written in HTML or XML.
+
+Q: What is the difference between HTML and XHTML?
+A: XHTML is a stricter and more XML-like version of HTML. It requires that all tags and attributes be properly closed and lowercase, and it enforces other XML syntax rules. HTML is more forgiving of errors and has more lenient syntax rules.
+
+Q: What is a div in HTML?
+A: A div in HTML is a container element used to group other HTML elements together and apply styles to them.
+
+Q: What is the box model in CSS?
+A: The box model in CSS is a way to represent the layout of an element on a web page. It consists of the content area, padding, border, and margin of the element.
+
+Q: What is a CSS selector?
+A: A CSS selector is a pattern used to select and apply styles to specific HTML elements on a web page.
+
+Q: What is the difference between class and ID in CSS?
+A: Classes and IDs in CSS are both used to apply styles to specific HTML elements. The main difference between them is that a class can be applied to multiple elements, while an ID can only be applied to one element.
+
+Q: What is a media query in CSS?
+A: A media query in CSS is a way to apply different styles to a web page based on the device or screen size it is being viewed on. Media queries are used for responsive web design.
+
+Q: What is a pseudo-class in CSS?
+A: A pseudo-class in CSS is a keyword added to a selector that specifies a special state of the selected element. Examples of pseudo-classes include :hover, :active, and :focus.
+
+Q: What is the difference between inline and block elements in HTML?
+A: Inline elements in HTML are elements that do not start on a new line and only take up as much width as necessary. Block elements, on the other hand, start on a new line and take up the full width of their container.
+
+Q: What is the difference between padding and margin in CSS?
+A: Padding in CSS is the space between the content of an element and its border. Margin is the space between an element's border and the adjacent elements on the web page.
+
+Q: What is the difference between em and rem in CSS?
+A: Em and rem are both units of measurement in CSS. Em is based on the font size of the element, while rem is based on the font size of the root element. Rem is more consistent across different devices and is often used for responsive web design.
+
+Q: What is the difference between a class and an ID in HTML?
+A: A class in HTML is an attribute used to group elements with a similar style, while an ID is used to identify a specific element on a web page. An ID can only be used once on a web page, while a class can be used multiple times.
+

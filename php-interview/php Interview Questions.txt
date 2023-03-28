@@ -1,0 +1,62 @@
+php-xampp Details:
+
+php version 8.1.2
+apache version 2.4.52
+mysqli version 8.1.2
+server version: 10.4.22-MariaDB
+
+Database server
+Server: 127.0.0.1 via TCP/IP
+Server type: MariaDB
+Server connection: SSL is not being used Documentation
+Server version: 10.4.22-MariaDB - mariadb.org binary distribution
+Protocol version: 10
+User: root@localhost
+Server charset: UTF-8 Unicode (utf8mb4)
+
+Web server
+Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.2
+Database client version: libmysql - mysqlnd 8.1.2
+PHP version: 8.1.2
+
+phpMyAdmin
+Version information: 5.1.1, latest stable version: 5.2.1
+
+
+
+Q: What is PHP?
+A: PHP is a server-side scripting language used for web development. It is designed to create dynamic web pages and web applications.
+
+Q: What are the advantages of using PHP?
+A: Some advantages of using PHP are:
+
+Open source: PHP is free to use and has a large community of developers.
+Easy to learn: PHP has a simple syntax that is easy to learn and understand.
+Platform-independent: PHP can run on different platforms, such as Windows, Linux, and macOS.
+Large community: PHP has a large community of developers who contribute to its development and provide support.
+Database integration: PHP can be easily integrated with different databases, such as MySQL, Oracle, and PostgreSQL.
+Q: What is the difference between GET and POST methods in PHP?
+A: GET and POST are two HTTP methods used to send data to the server in PHP. The main difference between GET and POST methods is that GET sends data as part of the URL, while POST sends data as part of the request body.
+
+Q: What is the difference between include() and require() in PHP?
+A: include() and require() are two PHP functions used to include external files in a PHP script. The main difference between include() and require() is that include() will give a warning if the file is not found, while require() will give a fatal error.
+
+Q: What is the difference between echo and print in PHP?
+A: echo and print are two PHP functions used to output data to the browser. The main difference between echo and print is that echo can output multiple values separated by commas, while print can only output a single value.
+
+Q: What is a session in PHP?
+A: A session in PHP is a way to store information about a user across multiple web pages. Sessions are stored on the server and can be used to store information such as user ID, username, and user preferences.
+
+Q: What is a cookie in PHP?
+A: A cookie in PHP is a small piece of data that is sent from a website to a user's web browser. Cookies are stored on the user's computer and can be used to store information such as user preferences, login information, and shopping cart items.
+
+Q: What is SQL injection in PHP?
+A: SQL injection in PHP is a type of security vulnerability that allows an attacker to inject SQL commands into a database query by manipulating user input. This can lead to data theft, data corruption, and other security risks.
+
+Q: What is object-oriented programming in PHP?
+A: Object-oriented programming (OOP) in PHP is a programming paradigm that uses objects to represent data and functionality. OOP allows for better code organization, code reuse, and easier maintenance.
+
+Q: What is a namespace in PHP?
+A: A namespace in PHP is a way to group related classes, functions, and constants together to avoid naming conflicts with other code. Namespaces can be used to organize code and make it easier to manage and maintain.
+
+

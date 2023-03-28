@@ -1,0 +1,41 @@
+Q: What is jQuery?
+A: jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversing, event handling, and animating for rapid web development.
+
+Q: What is the difference between jQuery and JavaScript?
+A: jQuery is a JavaScript library that provides a simplified API for interacting with the DOM and handling events. JavaScript is a programming language that can be used for a variety of tasks, including web development.
+
+Q: What are the advantages of using jQuery?
+A: Some advantages of using jQuery are:
+
+It simplifies DOM manipulation and event handling.
+It provides a consistent API across different browsers.
+It provides a set of useful plugins for common web development tasks.
+It is lightweight and easy to use.
+Q: What is the syntax for selecting an element in jQuery?
+A: The syntax for selecting an element in jQuery is:
+
+javascript
+Copy code
+$(selector)
+Q: What is the difference between the $() and jQuery() methods in jQuery?
+A: There is no difference between the $() and jQuery() methods in jQuery. They are two different ways to call the same method.
+
+Q: What is the difference between the text() and html() methods in jQuery?
+A: The text() method in jQuery sets or returns the text content of an element, while the html() method sets or returns the HTML content of an element.
+
+Q: What is the difference between the attr() and prop() methods in jQuery?
+A: The attr() method in jQuery sets or returns the value of an attribute for an element, while the prop() method sets or returns the value of a property for an element.
+
+Q: What is event delegation in jQuery?
+A: Event delegation in jQuery is the process of using a single event handler for multiple elements by attaching the event handler to a parent element and allowing the event to propagate down to the child elements.
+
+Q: What is chaining in jQuery?
+A: Chaining in jQuery is the process of calling multiple methods on a single jQuery object in a single line of code.
+
+Q: What is AJAX in jQuery?
+A: AJAX in jQuery is a technique for creating asynchronous web applications by using JavaScript and XML to update parts of a web page without requiring a full page reload.
+
+Q: What is a plugin in jQuery?
+A: A plugin in jQuery is a piece of code that extends the functionality of jQuery by adding new methods or features. Plugins are designed to be easy to use and can be downloaded from the jQuery Plugin Registry.
+
+

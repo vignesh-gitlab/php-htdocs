@@ -1,0 +1,58 @@
+Q: What is JavaScript?
+A: JavaScript is a client-side scripting language used for web development. It is used to add interactivity and dynamic behavior to web pages.
+
+Q: What are the advantages of using JavaScript?
+A: Some advantages of using JavaScript are:
+
+It can be used to create dynamic user interfaces.
+It can be used to add interactivity to web pages.
+It can be used to validate user input.
+It can be used to create animations and special effects.
+It can be used to manipulate the Document Object Model (DOM).
+Q: What is the Document Object Model (DOM) in JavaScript?
+A: The Document Object Model (DOM) in JavaScript is a programming interface for web documents. It represents the page so that it can be manipulated and changed by JavaScript.
+
+Q: What are the different data types in JavaScript?
+A: The different data types in JavaScript are:
+
+String
+Number
+Boolean
+Object
+Null
+Undefined
+Symbol (ES6)
+Q: What is a closure in JavaScript?
+A: A closure in JavaScript is a function that has access to its own private variables and the variables in its parent scope, even after the parent function has returned.
+
+Q: What is event bubbling in JavaScript?
+A: Event bubbling in JavaScript is the process by which an event moves up through the DOM from the innermost element to the outermost element.
+
+Q: What is the difference between == and === in JavaScript?
+A: The == operator in JavaScript compares two values for equality, but it performs type coercion if the values are of different types. The === operator in JavaScript compares two values for equality, but it does not perform type coercion.
+
+Q: What is the difference between let, var, and const in JavaScript?
+A: The let and const keywords in JavaScript were introduced in ES6. The let keyword is used to declare variables with block scope, while the var keyword is used to declare variables with function scope. The const keyword is used to declare variables that cannot be reassigned.
+
+Q: What is a callback function in JavaScript?
+A: A callback function in JavaScript is a function that is passed as an argument to another function and is executed after some operation has been completed.
+
+Q: What is a Promise in JavaScript?
+A: A Promise in JavaScript is an object that represents a value that may not be available yet, but will be at some point in the future. It is used to handle asynchronous operations.
+
+Q: What is the difference between synchronous and asynchronous code in JavaScript?
+A: Synchronous code in JavaScript is code that is executed in order, one statement at a time. Asynchronous code in JavaScript is code that is executed out of order, allowing other code to be executed while the asynchronous code is running.
+
+Q: What is the difference between a for loop and a forEach loop in JavaScript?
+A: A for loop in JavaScript is a traditional loop that is used to iterate over arrays or other collections. A forEach loop in JavaScript is a method that is used to iterate over arrays and execute a function for each element.
+
+Q: What is hoisting in JavaScript?
+A: Hoisting in JavaScript is the process by which variable and function declarations are moved to the top of their scope. This allows them to be used before they are declared.
+
+Q: What is the difference between a function declaration and a function expression in JavaScript?
+A: A function declaration in JavaScript is a statement that creates a function and gives it a name. A function expression in JavaScript is an expression that creates a function and assigns it to a variable. The main difference between the two is that function declarations are hoisted, while function expressions are not.
+
+
+
+
+

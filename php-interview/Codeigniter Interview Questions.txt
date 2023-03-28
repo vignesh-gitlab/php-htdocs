@@ -1,0 +1,102 @@
+Q: What is PHP?
+A: PHP stands for Hypertext Preprocessor, and it is a server-side scripting language used for web development.
+
+Q: What is CodeIgniter?
+A: CodeIgniter is a powerful PHP framework that is used to develop web applications. It is an open-source framework and it is based on the Model-View-Controller (MVC) architecture.
+
+Q: What is JavaScript?
+A: JavaScript is a client-side programming language used to create dynamic and interactive web pages.
+
+Q: What is jQuery?
+A: jQuery is a fast, small, and feature-rich JavaScript library used to simplify HTML document traversing, event handling, and animation.
+
+Q: What is AJAX?
+A: AJAX stands for Asynchronous JavaScript and XML. It is a technique used in web development to create asynchronous web applications, which means that the user can interact with the application without refreshing the page.
+
+Q: What is MySQL?
+A: MySQL is an open-source relational database management system. It is used to store and manage data in a database.
+
+Q: What is a PHP session?
+A: A PHP session is a way to store information (in variables) to be used across multiple pages. Session data is stored on the server, and a session ID is sent to the client to identify the session.
+
+Q: What is a CodeIgniter helper?
+A: A CodeIgniter helper is a set of functions that can be loaded and used throughout the application. Helper functions can be used to perform common tasks such as working with URLs, strings, and forms.
+
+Q: What is a JavaScript closure?
+A: A closure is a function that has access to variables in its outer scope, even after the outer function has returned.
+
+Q: What is the difference between $(document).ready() and $(window).load()?
+A: $(document).ready() is called as soon as the DOM is ready, which means that it is called before all the images and other external resources have finished loading. $(window).load() is called when all the images and external resources have finished loading.
+
+Q: What is the difference between GET and POST methods in AJAX?
+A: GET is used to retrieve data from the server, while POST is used to send data to the server for processing.
+
+Q: What is a MySQL join?
+A: A MySQL join is used to combine data from two or more tables based on a related column between them.
+
+Q: What is the difference between WHERE and HAVING in MySQL?
+A: WHERE is used to filter rows based on a condition, while HAVING is used to filter groups based on a condition.
+
+Q: What is CSRF protection in CodeIgniter?
+A: CSRF (Cross-Site Request Forgery) protection is a security feature in CodeIgniter that helps prevent unauthorized access to web applications. It generates a random token that is used to verify that a form submission came from the same application and not from an external source.
+
+Q: What is the use of jQuery AJAX method?
+A: The jQuery AJAX method is used to perform asynchronous HTTP requests to a server, which means that data can be retrieved and sent to the server without reloading the entire page.
+
+Q: What is the difference between attr() and prop() in jQuery?
+A: attr() is used to get or set the value of an HTML attribute, while prop() is used to get or set the value of a DOM property. For example, attr('href') would get the value of the href attribute, while prop('href') would get the value of the href property of an anchor tag.
+
+Q: What is the difference between on() and bind() methods in jQuery?
+A: The on() method is a newer version of the bind() method in jQuery. The on() method is more powerful,
+
+
+Q: What is CodeIgniter?
+A: CodeIgniter is a powerful PHP framework used to develop web applications. It is an open-source framework and is based on the Model-View-Controller (MVC) architecture.
+
+Q: What is MVC architecture?
+A: MVC stands for Model-View-Controller. It is an architectural pattern used to develop software applications. In MVC, the application is divided into three parts: Model, View, and Controller. The Model represents the data, the View represents the user interface, and the Controller acts as an intermediary between the Model and View.
+
+Q: What are the features of CodeIgniter?
+A: CodeIgniter has many features, including:
+
+MVC architecture
+Lightweight and fast
+Easy to learn and use
+Database abstraction with support for multiple databases
+Built-in security features
+Active community support
+Q: What is the default URL pattern in CodeIgniter?
+A: The default URL pattern in CodeIgniter is:
+
+http://example.com/controller/method/parameter1/parameter2
+
+Q: What is a CodeIgniter library?
+A: A CodeIgniter library is a collection of classes and functions that can be used across the application. Libraries can be used to perform common tasks such as working with databases, files, and sessions.
+
+Q: What is a CodeIgniter helper?
+A: A CodeIgniter helper is a set of functions that can be loaded and used throughout the application. Helper functions can be used to perform common tasks such as working with URLs, strings, and forms.
+
+Q: What is a CodeIgniter model?
+A: A CodeIgniter model is a PHP class that is used to interact with the database and perform CRUD (Create, Read, Update, Delete) operations. It contains the data and business logic of the application.
+
+Q: What is a CodeIgniter view?
+A: A CodeIgniter view is a PHP file that is used to display the data to the user. It contains HTML, CSS, and JavaScript code, as well as PHP code to display dynamic data.
+
+Q: What is a CodeIgniter controller?
+A1: A CodeIgniter controller is a PHP class that is used to handle user requests and interact with the model and view. Controllers are responsible for controlling the flow of data between the model and view.
+A2: A CodeIgniter controller is a PHP class that is used to handle user requests and control the flow of the application. It receives input from the user, communicates with the Model and View, and returns output to the user.
+
+Q: What is the use of the autoload.php file in CodeIgniter?
+A: The autoload.php file in CodeIgniter is used to load commonly used classes and functions automatically when the application starts. This can save time and improve performance by reducing the need to load classes and functions manually in each controller or model.
+
+Q: What is the use of routes.php file in CodeIgniter?
+A: The routes.php file in CodeIgniter is used to define custom URLs for the application. This can be useful for creating SEO-friendly URLs or for redirecting old URLs to new ones.
+
+Q: What is CSRF protection in CodeIgniter?
+A: CSRF (Cross-Site Request Forgery) protection is a security feature in CodeIgniter that helps prevent unauthorized access to web applications. It generates a random token that is used to verify that a form submission came from the same application and not from an external source.
+
+Q: What is the use of the form validation library in CodeIgniter?
+A: The form validation library in CodeIgniter is used to validate user input before it is submitted to the server. This can help prevent errors and improve the security of the application.
+
+Q: What is the difference between the set_flashdata() and set_userdata() methods in CodeIgniter?
+A: The set_flashdata() method is used to set data that is available only for the next request, while the set_userdata() method is used to set data that is available throughout the session.
